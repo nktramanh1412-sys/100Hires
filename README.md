@@ -30,3 +30,33 @@
 
 ---
 *This README documents my ability to research, utilize AI tools for problem-solving, and adapt to new technical environments.*
+
+
+# Phase 2: AI-Powered SEO Research Project
+
+## 1. Project Overview
+This project focuses on **AI-powered SEO content production for B2B SaaS**. The goal is to research and document high-signal strategies from industry practitioners to build a future-ready content playbook.
+
+## 2. Technical Workflow & AI Integration
+To ensure data accuracy and scalability, I utilized an automated workflow to collect and process research materials:
+
+### **YouTube Transcript Extraction**
+- **Tool:** Supadata API.
+- **Process:** Extracted the raw transcript from [Koray Tuğberk GÜBÜR's Semantic SEO Revolution](https://www.youtube.com/watch?v=_U0UQsah3Pc).
+- **AI Processing:** Fed the raw transcript into **Codex (within Cursor IDE)** to clean the data, remove promotional filler, and structure it into a readable Markdown format in `/research/youtube-transcripts/`.
+
+### **LinkedIn Data Scraping**
+- **Tool:** Apify (LinkedIn Profile Posts Scraper).
+- **Process:** Scraped the 10 most recent posts from **Kevin Indig's** profile to capture real-time market insights and salary data.
+- **Data Synthesis:** I extracted the raw **JSON** dataset from Apify and utilized **Codex** to architect a structured Markdown table, converting raw data into actionable insights located in `/research/linkedin-posts/`.
+
+## 3. Expert Selection Rationale
+I selected these 10 experts (documented in `sources.md`) based on their focus on **practical frameworks** rather than theoretical SEO. 
+
+- **Kevin Indig:** Chosen for his data-driven insights into the "AI Premium" in the job market and AEO (Answer Engine Optimization).
+- **Koray Tuğberk GÜBÜR:** Selected for his groundbreaking work in **Semantic SEO** and topical authority, which are critical for scaling B2B SaaS content without losing quality.
+
+## 4. Repository Structure
+- `/research/sources.md`: List of 10 experts with links and annotations.
+- `/research/linkedin-posts/`: Scraped posts and tables (Kevin Indig).
+- `/research/youtube-transcripts/`: Processed transcripts (Koray Tuğberk GÜBÜR).
